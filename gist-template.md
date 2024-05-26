@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Regex: How It Works
 
-Introductory paragraph (replace this with your text)
+In this tutorial, I'm going to teach you about Regex.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+I will teach you how Regex works using telephone numbers.
 
 ## Table of Contents
 
@@ -36,23 +36,30 @@ Used to match one pattern or another. Represented with the '|' symbol. Ex. Match
 
 ### Character Classes
 
-Used to match a set of characters.
+Used to match a set of characters. Square brackets are used, you can list specific characters, ranges of characters, or a combination of both. Character classes in regular expressions to match phone numbers can help you find different formats. Ex. `/^(\+1\s?)?(\(?\d{3}\)?[\s.-]?)?\d{3}[\s.-]?\d{4}$/`
+// Valid phone numbers
+// 123-456-7890
+// 123.456.7890
+// 123-456-7890
+// 1234567890
+// (123) 456-7890
+// +1 (123) 456-7890
 
 ### Flags
 
-Modifiers that can be added to the regex to change its behavior.
+Modifiers that can be added to the regex to change its behavior. For example, a `g` flag can be added to find all instances in the text, `m` flag can be used if you have a multiline string where phone numbers appear at the beginning or end of lines.
 
 ### Grouping and Capturing
 
-Used to group parts of a pattern together and capture them for later use.
+Used to group parts of a pattern together and capture them for later use. Can be used to extract certain parts of a phone number, like area code.
 
 ### Bracket Expressions
 
-Used to match a set of characters.
+Used to match a set of characters, such as digits and separators. 
 
 ### Greedy and Lazy Match
 
-Greedy match tries to match as many characters as possible, of a pattern, while lazy match tries to match as few characters as possible.
+Greedy match tries to match as many characters as possible, of a pattern, while lazy match tries to match as few characters as possible. Examples of greedy quantifiers: `*`: matches 0 or more occurances, `+`: matches 1 or more occurances. Lazy quantifiers are created by appending a `?` to the greedy  quantifier. Ex. `*?`: matches 0 or more occurances (as few as possible), or `+?`: matches 1 or more occurances (as few as possible).
 
 ### Boundaries
 
@@ -68,4 +75,4 @@ Used to assert that a pattern is or is not present without including it in the m
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hi! My name is Brenner, I have learned a lot about coding and hope this tutorial helps you learn something new!
