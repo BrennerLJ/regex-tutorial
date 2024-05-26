@@ -63,7 +63,7 @@ Greedy match tries to match as many characters as possible, of a pattern, while 
 
 ### Boundaries
 
-Used to match specific positions in a string.
+Used to match specific positions in a string rather than matching actual characters. Types of boundaries include, 1. Word Boundaries: `\b` and `\B`, 2. Line Boundaries: `^` and `$`, and 3. String Boundaries: `\A`, `\Z`, and `\z`.
 
 ### Back-references
 
