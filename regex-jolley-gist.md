@@ -75,4 +75,4 @@ Used to assert that a pattern is or is not present without including it in the m
 
 ## Author
 
-Hi! My name is Brenner, I have learned a lot about coding and hope this tutorial helps you learn something new! Here is my Github page: https://github.com/BrennerLJ/regex-tutorial
+Hi! My name is Brenner, I have learned a lot about coding and hope this tutorial helps you learn something new! Here is my Github page: https://github.com/BrennerLJ/regex-tutorial/blob/main/regex-jolley-gist.md
